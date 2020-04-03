@@ -1,0 +1,10 @@
+1. Increasing Intervals:
+We will take the RGB from the pixel and parse through the data set. 
+For each entry in the data set we will check if the RGB values from the pixel are within the RGB values of the entry +- a difference. If all values are within that interval, we will return that entry as the corresponding color. If not we will increase the difference with the initial value that it had, we will do this until we find a suitable entry.
+
+2. Smallest Grade: 
+For each entry in the data set we will compute a grade. The grade consists in the sum of all differences between the RGB values from the pixel and the entry (we take the absolute value for each difference as a result). Then we pick the entry with the smallest grade as the corresponding color.  
+
+3. We calculate the distance between the colors as they were 3D points and we pick the closest to the one analyzed
+
+The explanation will be the distance between the color of the pixel and the result.
